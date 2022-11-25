@@ -45,8 +45,8 @@ def launch_gui():
     menubar.add_cascade(label="Tools", menu=tools_menu)
 
     helpmenu = Menu(menubar, tearoff=0)
-    helpmenu.add_command(label="How To Guide", command=lambda: webbrowser.open('https://raw.githubusercontent.com/mattmartin1/4990/main/HowToGuide.txt?token=GHSAT0AAAAAAB3GEITBOABSKSVRNKXMIUOYY36VGDQ'))
-    helpmenu.add_command(label="Github Project", command=lambda: webbrowser.open('https://github.com/mattmartin1/4990'))
+    helpmenu.add_command(label="How To Guide", command=lambda: webbrowser.open('https://github.com/mattmartin1/4990-final/blob/main/HowToGuide.md'))
+    helpmenu.add_command(label="Github Project", command=lambda: webbrowser.open('https://github.com/mattmartin1/4990-final'))
     helpmenu.add_command(label="Gain Access", command=lambda: mb.showinfo("GitHub Access", "To gain access to the Git repository, please email marti13r@uwindsor.ca"))
     menubar.add_cascade(label="Help", menu=helpmenu)
 
